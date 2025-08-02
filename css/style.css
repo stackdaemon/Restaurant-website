@@ -196,6 +196,7 @@ footer{
      font-size: 17px;
      font-weight: 300;
      color: rgb(86, 86, 86);
+    
 }
 .icon_container{
      display: flex;
@@ -207,6 +208,7 @@ footer{
      border-radius: 4px;
     margin-top: 5px;
     margin-bottom: 10px;
+    border: none;
 }
 
 .last_item h3{
@@ -293,7 +295,7 @@ footer{
     max-width: 280px;
   }
   
-}
+
 /* menue section */
 .menu{
      padding: 16px;
@@ -313,4 +315,12 @@ footer{
 }
 .icon_container{
      margin-bottom: 40px;
+}
+.footer_container ul li a:hover{
+     background-color: rgb(116, 116, 116);
+     color: white;
+     padding: 5px;
+     font-weight: 500;
+     ;
+}
 }
